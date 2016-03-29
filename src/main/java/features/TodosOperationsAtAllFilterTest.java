@@ -3,22 +3,14 @@ package features;
 import categories.All;
 import categories.Buggy;
 import categories.Smoke;
-import com.codeborne.selenide.Configuration;
-import org.junit.BeforeClass;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
-import org.omg.PortableInterceptor.SYSTEM_EXCEPTION;
 
 import static pages.TodoMVC.*;
 import static pages.TodoMVC.TaskType.*;
 
 @Category(All.class)
-public class TodosOperationsAtAllFilterTest {
-
-    @BeforeClass
-    public static void setup(){
-        Configuration.browser = System.getProperty("driver.browser");
-    }
+public class TodosOperationsAtAllFilterTest extends BaseTest{
 
     @Test
     public void testCompleteAtAll() {

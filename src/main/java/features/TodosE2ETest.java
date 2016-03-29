@@ -2,20 +2,13 @@ package features;
 
 import categories.All;
 import categories.Smoke;
-import com.codeborne.selenide.Configuration;
-import org.junit.BeforeClass;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
 
 import static pages.TodoMVC.*;
 
 @Category(All.class)
-public class TodosE2ETest {
-
-    @BeforeClass
-    public static void setup(){
-        Configuration.browser = System.getProperty("driver.browser");
-    }
+public class TodosE2ETest extends BaseTest {
 
     @Test
     @Category(Smoke.class) //Annotation for specifying test suite, in the brackets we specify the group
