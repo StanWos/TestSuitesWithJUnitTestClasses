@@ -1,4 +1,4 @@
-package categories;
+package com.main.categories;
 
 
 public interface Smoke { /* junit category */ }

@@ -1,7 +1,7 @@
 package com.main;
 
-import categories.Buggy;
-import features.TodosOperationsAtAllFilterTest;
+import com.main.categories.Buggy;
+import com.main.features.TodosOperationsAtAllFilterTest;
 import org.junit.experimental.categories.Categories;
 import org.junit.runner.RunWith;
 import org.junit.runners.Suite;

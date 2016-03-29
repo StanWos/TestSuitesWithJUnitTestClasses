@@ -42,7 +42,7 @@
                 <configuration>
                     <test>com.main.${suite}</test>
                     <systemPropertyVariables>
-                        <webdriver.chrome.driver>/home/stan/Documents/chromedriver</webdriver.chrome.driver>
+                        <webdriver.chrome.driver>/home/stan/Documents/chromedriver/chromedriver</webdriver.chrome.driver>
                         <driver.browser>${driver.browser}</driver.browser>
                     </systemPropertyVariables>
                 </configuration>

@@ -1,15 +1,14 @@
-package features;
+package com.main.features;
 
-import categories.All;
-import categories.Buggy;
-import categories.Smoke;
+import com.main.categories.Buggy;
+import com.main.categories.Smoke;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
 
 import static pages.TodoMVC.*;
 import static pages.TodoMVC.TaskType.*;
 
-@Category(All.class)
+
 public class TodosOperationsAtAllFilterTest extends BaseTest{
 
     @Test

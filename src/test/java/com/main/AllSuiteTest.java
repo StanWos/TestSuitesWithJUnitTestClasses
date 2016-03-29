@@ -1,8 +1,7 @@
 package com.main;
 
-import categories.All;
-import features.TodosE2ETest;
-import features.TodosOperationsAtAllFilterTest;
+import com.main.features.TodosE2ETest;
+import com.main.features.TodosOperationsAtAllFilterTest;
 import org.junit.experimental.categories.Categories;
 import org.junit.runner.RunWith;
 import org.junit.runners.Suite;
@@ -12,6 +11,5 @@ import org.junit.runners.Suite;
  */
 @RunWith(Categories.class)
 @Suite.SuiteClasses({TodosE2ETest.class, TodosOperationsAtAllFilterTest.class})
-@Categories.IncludeCategory(All.class)
 public class AllSuiteTest {
 }

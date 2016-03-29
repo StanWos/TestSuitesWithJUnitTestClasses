@@ -1,9 +1,9 @@
 package com.main;
 
-import categories.Buggy;
-import categories.Smoke;
-import features.TodosE2ETest;
-import features.TodosOperationsAtAllFilterTest;
+import com.main.categories.Buggy;
+import com.main.categories.Smoke;
+import com.main.features.TodosE2ETest;
+import com.main.features.TodosOperationsAtAllFilterTest;
 import org.junit.experimental.categories.Categories;
 import org.junit.runner.RunWith;
 import org.junit.runners.Suite;

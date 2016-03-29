@@ -1,13 +1,11 @@
-package features;
+package com.main.features;
 
-import categories.All;
-import categories.Smoke;
+import com.main.categories.Smoke;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
-
 import static pages.TodoMVC.*;
 
-@Category(All.class)
+
 public class TodosE2ETest extends BaseTest {
 
     @Test

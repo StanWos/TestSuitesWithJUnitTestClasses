@@ -1,4 +1,4 @@
-package features;
+package com.main.features;
 
 import com.codeborne.selenide.Configuration;
 
